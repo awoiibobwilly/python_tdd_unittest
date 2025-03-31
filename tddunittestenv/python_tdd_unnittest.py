@@ -13,6 +13,9 @@ class TestMultiplyAll(unittest.TestCase):
     def test_multiplyall1(self):
         self.assertEqual(multiplyall(1, 1), 1)
 
+    def test_multiplyall2(self):
+        self.assertEqual(multiplyall(2, 2), 4)
+
 
 if __name__ == '__main__':
     unittest.main()
