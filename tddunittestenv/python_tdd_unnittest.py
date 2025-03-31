@@ -2,11 +2,15 @@
 import unittest
 
 
-# The start of the test suite
+def multiplyall(a, b):
+    return a * b
+
+
+# Test cases for multiplyall function, beginning of Test Suite
 class TestMultiplyAll(unittest.TestCase):
 
     def test_multiplyall1(self):
-        self.assertEqual(multiplyall(1, 1), 1)
+        self.assertEqual(multiplyall(1, 1), 2)
 
 
 if __name__ == '__main__':
