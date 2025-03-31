@@ -2,9 +2,9 @@
 import unittest
 
 
-# The Logic function
+# Refactoring the logic function for the first time
 def multiplyall(a, b):
-    return a * b
+    return 1
 
 
 # Test cases for multiplyall function, beginning of Test Suite
